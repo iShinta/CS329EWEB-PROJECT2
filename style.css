@@ -1,4 +1,62 @@
 body{
 	margin: 0px;
 	padding: 0px;
+	background-image: url("img/back-paper.png");
+	background-size: cover;
+}
+
+.container{
+	font-family: Verdana, georgia, "times new roman", times, serif;
+	background-color: white;
+	opacity: 0.8;
+	width: 1024px;
+	margin: auto;
+	height: 100%;
+}
+
+.header{
+	border-bottom: double 2px;
+}
+
+.title{
+	width: 100%;
+	text-align: center;
+}
+
+.undertitle{
+	width: 100%;
+	text-align: center;
+}
+
+.menu{
+	border-bottom: double 2px;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.content{
+	width: 70%;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.left_content{
+	width: 15%;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.right_content{
+	width: 15%;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.footer{
+
 }
