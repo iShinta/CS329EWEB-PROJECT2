@@ -1,8 +1,12 @@
 body{
 	margin: 0px;
 	padding: 0px;
+	width: 100%;
+	height: 100%;
 	background-image: url("img/back-paper.png");
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 .container{
@@ -29,7 +33,9 @@ body{
 }
 
 .menu{
+	width: 100%;
 	border-bottom: double 2px;
+	text-align: center;
 }
 
 .menu li{
@@ -37,23 +43,32 @@ body{
 }
 
 .content{
-	width: 70%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main_content{
+	width: 750px;
 	display: inline-block;
 	padding: 10px;
+	margin: 0px;
 	vertical-align: top;
 }
 
 .left_content{
-	width: 15%;
+	width: 100px;
 	display: inline-block;
 	padding: 10px;
+	margin: 0px;
 	vertical-align: top;
 }
 
 .right_content{
-	width: 15%;
+	width: 100px;
 	display: inline-block;
 	padding: 10px;
+	margin: 0px;
 	vertical-align: top;
 }
 
