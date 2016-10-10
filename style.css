@@ -13,7 +13,7 @@ body{
 	font-family: Verdana, georgia, "times new roman", times, serif;
 	background-color: white;
 	opacity: 0.8;
-	width: 1024px;
+	width: 1300px;
 	margin: auto;
 	height: 100%;
 }
@@ -49,11 +49,25 @@ body{
 }
 
 .main_content{
-	width: 750px;
+	width: 1000px;
 	display: inline-block;
 	padding: 10px;
 	margin: 0px;
 	vertical-align: top;
+}
+
+.news{
+	width: 550px;
+}
+
+.featured_pokemon{
+	float: right;
+	width: 400px;
+}
+
+.player{
+	width: 600px;
+	height: 400px;
 }
 
 .left_content{
