@@ -85,16 +85,10 @@ body{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 0px;
-}
-
-.ad figure{
-	margin: 0px;
-	padding: 0px;
-}
-
-.ad figcaption{
 	text-align: right;
 }
+
+
 
 .ad_pic2{
 	width: 300px;
