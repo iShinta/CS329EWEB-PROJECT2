@@ -39,10 +39,12 @@ body{
 }
 
 .menu li{
+	margin-left: 20px;
 	display: inline-block;
 }
 
 .content{
+	font-size: 0.9em;
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
@@ -87,5 +89,14 @@ body{
 }
 
 .footer{
+	color: darkgrey;
+	font-size: 0.8em;
+	min-height: 200px;
+	padding-top:15px;
+	text-align: center;
+	border-top: solid 2px black;
+}
 
+.footer a{
+	color: darkgrey;
 }
