@@ -51,7 +51,7 @@ body{
 }
 
 .main_content{
-	width: 1000px;
+	width: 940px;
 	display: inline-block;
 	padding: 10px;
 	margin: 0px;
@@ -64,7 +64,7 @@ body{
 
 .featured_pokemon{
 	float: right;
-	width: 400px;
+	width: 340px;
 }
 
 .player{
@@ -72,20 +72,32 @@ body{
 	height: 400px;
 }
 
-.left_content{
-	width: 100px;
+.right_content{
+	width: 300px;
 	display: inline-block;
-	padding: 10px;
-	margin: 0px;
+	padding: 0px;
+	margin: 10px;
 	vertical-align: top;
 }
 
-.right_content{
-	width: 100px;
-	display: inline-block;
-	padding: 10px;
+.ad{
 	margin: 0px;
-	vertical-align: top;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+
+.ad figure{
+	margin: 0px;
+	padding: 0px;
+}
+
+.ad figcaption{
+	text-align: right;
+}
+
+.ad_pic2{
+	width: 300px;
 }
 
 .footer{
